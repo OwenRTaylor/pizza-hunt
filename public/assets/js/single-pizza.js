@@ -111,6 +111,6 @@ function handleNewReplySubmit(event) {
 $backBtn.addEventListener('click', function() {
   window.history.back();
 });
- 
+
 $newCommentForm.addEventListener('submit', handleNewCommentSubmit);
 $commentSection.addEventListener('submit', handleNewReplySubmit);
